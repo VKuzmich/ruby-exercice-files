@@ -6,3 +6,5 @@ c = a.floor
 puts c
 d = a.round
 puts d
+
+puts d = c * b
