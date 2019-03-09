@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e512310d-6e5d-4d62-aec9-be870dfd25be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/arrays.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array_and_other_array.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,6 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ruby_exercice_files@arrays.rcov" NAME="arrays Coverage Results" MODIFIED="1552162019079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-exercice-files" />
+    <SUITE FILE_PATH="coverage/ruby_exercice_files@array_and_other_array.rcov" NAME="array_and_other_array Coverage Results" MODIFIED="1552162452720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-exercice-files" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-317855936">
@@ -27,26 +28,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="04 number methods" value="1" />
-          <entry key="rb" value="2" />
+          <entry key="rb" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Ruby" value="2" />
+          <entry key="Ruby" value="3" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="04 number methods" value="16" />
-          <entry key="rb" value="186" />
-          <entry key="txt" value="12" />
+          <entry key="rb" value="258" />
+          <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Ruby" value="202" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="Ruby" value="274" />
         </counts>
       </usages-collector>
     </session>
@@ -62,11 +63,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arrays.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/array_and_other_array.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -88,6 +98,7 @@
       <list>
         <option value="$PROJECT_DIR$/04 number methods" />
         <option value="$PROJECT_DIR$/arrays.rb" />
+        <option value="$PROJECT_DIR$/array_and_other_array.rb" />
       </list>
     </option>
   </component>
@@ -98,8 +109,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="89" />
-    <option name="y" value="68" />
+    <option name="x" value="90" />
+    <option name="y" value="136" />
     <option name="width" value="1285" />
     <option name="height" value="639" />
   </component>
@@ -147,7 +158,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Ruby.array_and_other_array">
+    <configuration name="array_and_other_array" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="ruby-exercice-files" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/array_and_other_array.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <configuration name="arrays" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ruby-exercice-files" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -166,8 +195,13 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Ruby.arrays" />
+      <item itemvalue="Ruby.array_and_other_array" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Ruby.array_and_other_array" />
         <item itemvalue="Ruby.arrays" />
       </list>
     </recent_temporary>
@@ -184,7 +218,7 @@
       <option name="presentableId" value="Default" />
       <updated>1552079708782</updated>
       <workItem from="1552079710216" duration="355000" />
-      <workItem from="1552161134781" duration="849000" />
+      <workItem from="1552161134781" duration="1204000" />
     </task>
     <task id="LOCAL-00001" summary="add new line">
       <created>1552079840522</created>
@@ -193,22 +227,29 @@
       <option name="project" value="LOCAL" />
       <updated>1552079840522</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="arrays">
+      <created>1552162087009</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552162087009</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1204000" />
+    <option name="totallyTimeSpent" value="1559000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="89" y="68" width="1285" height="639" extended-state="0" />
+    <frame x="64" y="359" width="1285" height="639" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25341916" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25341916" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -232,7 +273,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add new line" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new line" />
+    <MESSAGE value="arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrays" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.rb">
@@ -249,6 +291,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array_and_other_array.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
