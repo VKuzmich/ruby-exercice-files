@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e512310d-6e5d-4d62-aec9-be870dfd25be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/array_and_other_array.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_and_other_array.rb" beforeDir="false" afterPath="$PROJECT_DIR$/array_and_other_array.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +12,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ruby_exercice_files@arrays.rcov" NAME="arrays Coverage Results" MODIFIED="1552162019079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-exercice-files" />
-    <SUITE FILE_PATH="coverage/ruby_exercice_files@array_and_other_array.rcov" NAME="array_and_other_array Coverage Results" MODIFIED="1552162452720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-exercice-files" />
+    <SUITE FILE_PATH="coverage/ruby_exercice_files@array_and_other_array.rcov" NAME="array_and_other_array Coverage Results" MODIFIED="1552162920027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-exercice-files" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-317855936">
@@ -40,14 +39,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="04 number methods" value="16" />
-          <entry key="rb" value="258" />
+          <entry key="rb" value="305" />
           <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Ruby" value="274" />
+          <entry key="Ruby" value="321" />
         </counts>
       </usages-collector>
     </session>
@@ -218,7 +217,7 @@
       <option name="presentableId" value="Default" />
       <updated>1552079708782</updated>
       <workItem from="1552079710216" duration="355000" />
-      <workItem from="1552161134781" duration="1204000" />
+      <workItem from="1552161134781" duration="1640000" />
     </task>
     <task id="LOCAL-00001" summary="add new line">
       <created>1552079840522</created>
@@ -238,18 +237,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1559000" />
+    <option name="totallyTimeSpent" value="1995000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="359" width="1285" height="639" extended-state="0" />
+    <frame x="90" y="136" width="1285" height="639" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25341916" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25341916" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32967034" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33150184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
