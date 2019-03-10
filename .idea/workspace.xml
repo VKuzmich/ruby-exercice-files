@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e512310d-6e5d-4d62-aec9-be870dfd25be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hash.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/if_condition.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_methods.rb" beforeDir="false" afterPath="$PROJECT_DIR$/array_methods.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +16,7 @@
     <SUITE FILE_PATH="coverage/ruby_exercice_files@array_and_other_array.rcov" NAME="array_and_other_array Coverage Results" MODIFIED="1552162920027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-exercice-files" />
     <SUITE FILE_PATH="coverage/ruby_exercice_files@hash.rcov" NAME="hash Coverage Results" MODIFIED="1552248247492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-exercice-files" />
     <SUITE FILE_PATH="coverage/ruby_exercice_files@array_methods.rcov" NAME="array_methods Coverage Results" MODIFIED="1552247364725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-exercice-files" />
+    <SUITE FILE_PATH="coverage/ruby_exercice_files@if_condition.rcov" NAME="if_condition Coverage Results" MODIFIED="1552249261903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-exercice-files" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-317855936">
@@ -33,26 +33,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="04 number methods" value="1" />
-          <entry key="rb" value="5" />
+          <entry key="rb" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Ruby" value="5" />
+          <entry key="Ruby" value="6" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="04 number methods" value="16" />
-          <entry key="rb" value="1124" />
+          <entry key="rb" value="1450" />
           <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Ruby" value="1140" />
+          <entry key="Ruby" value="1466" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -100,11 +100,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hash.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
+            <state relative-caret-position="95">
               <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/if_condition.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -120,6 +129,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -130,6 +140,7 @@
         <option value="$PROJECT_DIR$/array_and_other_array.rb" />
         <option value="$PROJECT_DIR$/array_methods.rb" />
         <option value="$PROJECT_DIR$/hash.rb" />
+        <option value="$PROJECT_DIR$/if_condition.rb" />
       </list>
     </option>
   </component>
@@ -189,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Ruby.hash">
+  <component name="RunManager" selected="Ruby.if_condition">
     <configuration name="array_and_other_array" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ruby-exercice-files" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -262,14 +273,34 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="if_condition" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="ruby-exercice-files" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/if_condition.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Ruby.arrays" />
       <item itemvalue="Ruby.array_and_other_array" />
       <item itemvalue="Ruby.array_methods" />
       <item itemvalue="Ruby.hash" />
+      <item itemvalue="Ruby.if_condition" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Ruby.if_condition" />
         <item itemvalue="Ruby.hash" />
         <item itemvalue="Ruby.array_methods" />
         <item itemvalue="Ruby.array_and_other_array" />
@@ -291,7 +322,7 @@
       <workItem from="1552079710216" duration="355000" />
       <workItem from="1552161134781" duration="1827000" />
       <workItem from="1552163272082" duration="1153000" />
-      <workItem from="1552247026247" duration="970000" />
+      <workItem from="1552247026247" duration="1892000" />
     </task>
     <task id="LOCAL-00001" summary="add new line">
       <created>1552079840522</created>
@@ -314,15 +345,21 @@
       <option name="project" value="LOCAL" />
       <updated>1552164311207</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="arrays">
+      <created>1552248281968</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552248281968</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4305000" />
+    <option name="totallyTimeSpent" value="5227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="120" y="321" width="1285" height="505" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2614642" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -416,8 +453,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hash.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
+        <state relative-caret-position="95">
           <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/if_condition.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
