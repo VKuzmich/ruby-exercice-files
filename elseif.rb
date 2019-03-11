@@ -21,3 +21,7 @@ elsif i==12
   puts "it is 3*4"
   else "you answer is wrong"
 end
+
+x=10
+x+=1 if x.zero?
+puts x
