@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e512310d-6e5d-4d62-aec9-be870dfd25be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cases.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ternar.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unless.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e512310d-6e5d-4d62-aec9-be870dfd25be" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +23,7 @@
     <session id="-317855936">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
@@ -118,7 +113,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ternar.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
+            <state relative-caret-position="270">
               <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
@@ -341,7 +336,7 @@
       <workItem from="1552079710216" duration="355000" />
       <workItem from="1552161134781" duration="1827000" />
       <workItem from="1552163272082" duration="1153000" />
-      <workItem from="1552247026247" duration="5077000" />
+      <workItem from="1552247026247" duration="5263000" />
     </task>
     <task id="LOCAL-00001" summary="add new line">
       <created>1552079840522</created>
@@ -396,18 +391,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8412000" />
+    <option name="totallyTimeSpent" value="8598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="111" y="269" width="1285" height="505" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2614642" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2614642" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49959776" visible="true" weight="0.33009708" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959776" weight="0.33009708" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -529,7 +523,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ternar.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
+        <state relative-caret-position="270">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
